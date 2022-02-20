@@ -5,6 +5,7 @@
 > - JavaScript
 > - C
 > - C#
+> - C++
 > - CSS/HTML
 
 ***
