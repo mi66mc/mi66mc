@@ -1,4 +1,4 @@
-<img id="img" align='right' style="border-radius: 30px; margin-bottom: 25px; margin-left: 20px" src="https://i.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.webp">
+<img id="img" align='right' src="https://i.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.webp">
 
 ```json
 {
@@ -25,3 +25,7 @@
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+
+<a href="https://www.instagram.com/migue.cm_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://www.youtube.com/channel/UCCw77G-jPVubPT2S5WGB7kg"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+<a href="https://twitter.com/mi66mc"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
