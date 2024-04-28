@@ -4,14 +4,6 @@
     "age": "1#",
     "country": "Brazil",
     "state": "RS - Rio Grande do Sul",
-
-    "languages": [
-        "Python",
-        "JavaScript",
-        "C",
-        "C++",
-        "CSS/HTML"
-    ],
     
     "level": "Junior"
 }
