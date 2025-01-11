@@ -8,7 +8,7 @@
         "https://zerobin.vercel.app/",
         "https://sumapp.vercel.app/",
         "https://exstrack.vercel.app/"
-]
+    ]
     
     "level": "Junior"
 }
