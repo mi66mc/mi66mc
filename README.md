@@ -1,9 +1,14 @@
 ```json
 {
     "name": "mi66mc",
-    "age": "1#",
+    "age": 16,
     "country": "Brazil",
     "state": "RS - Rio Grande do Sul",
+    "projects": [
+        "https://zerobin.vercel.app/",
+        "https://sumapp.vercel.app/",
+        "https://exstrack.vercel.app/"
+]
     
     "level": "Junior"
 }
