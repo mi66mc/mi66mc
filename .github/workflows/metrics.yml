@@ -1,52 +1,7 @@
-name: generate animation
-
-on:
-  # run automatically every 24 hours
-  schedule:
-    - cron: "0 */24 * * *" 
-  
-  # allows to manually run the job at any time
-  workflow_dispatch:
-  
-  # run on every push on the master branch
-  push:
-    branches:
-    - master
-    
-  
-
-jobs:
-  generate:
-    permissions: 
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
-    steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 name: Metrics
 on:
   schedule:
-    - cron: "0 */12 * * *" # Atualiza a cada 12h
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -58,31 +13,26 @@ jobs:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Base
           user: mi66mc
           template: classic
           base: header, activity, community, repositories, metadata
 
-          # Commits por horário
           plugin: habits
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          # Linguagens
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
 
-          # Atividade recente
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: all
 
-          # Troféus / achievements
           plugin_achievements: yes
           plugin_achievements_threshold: B
           plugin_achievements_secrets: yes
