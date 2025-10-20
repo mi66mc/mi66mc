@@ -1,5 +1,5 @@
 <h1 align="center">sup, I'm <a href="https://github.com/mi66mc">mi66mc</a> 🧠</h1>
-<p align="center">16y | RS, Brazil 🇧🇷 | Junior Dev</p>
+<p align="center">17y | RS, Brazil 🇧🇷 | Junior Dev</p>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Cascadia+Mono&weight=500&pause=1000&color=F7C058&background=272727&center=true&vCenter=true&width=435&height=45&lines=%24+building+stuff...;%24+learning...;%24+fixing+that+one+issue+from+3am..." alt="Typing SVG" />
