@@ -50,7 +50,6 @@
 ## 📬 Contact
 
 - 🌐 [`GitHub`](https://github.com/mi66mc)
-- 🔗 [`LinkedIn`](https://www.linkedin.com/in/miguel-malgarezi/)
 - 📨 Open an issue or PR on any project!
 
 ---
